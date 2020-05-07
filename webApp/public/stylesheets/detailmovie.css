@@ -1,0 +1,538 @@
+@charset "UTF-8";
+#detailAll .qugao {
+  overflow: hidden;
+  background-image: url("./images/bbbbbbbggg.png");
+  background-size: cover; }
+  #detailAll .qugao .all {
+    width: 1100px;
+    height: 445px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative; }
+    #detailAll .qugao .all > div:nth-child(1) {
+      position: absolute;
+      left: 300px;
+      top: 160px;
+      color: #ffffff; }
+      #detailAll .qugao .all > div:nth-child(1) h1 {
+        font-size: 26px; }
+      #detailAll .qugao .all > div:nth-child(1) h2 {
+        font-size: 18px; }
+      #detailAll .qugao .all > div:nth-child(1) p {
+        margin-top: 10px; }
+        #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) {
+          height: 40px;
+          margin-top: 50px;
+          text-align: center; }
+          #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a {
+            display: inline-block;
+            width: 120px;
+            color: #ffffff;
+            background-color: #756189;
+            margin-right: 10px;
+            line-height: 40px; }
+            #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a:nth-child(1)::before {
+              content: '';
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background-image: url("./images/banner_icon02.png");
+              vertical-align: middle;
+              margin-right: 5px; }
+            #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a:nth-child(2)::before {
+              content: '';
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background-image: url("./images/banner_icon01.png");
+              vertical-align: middle;
+              margin-right: 5px; }
+            #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a:hover {
+              color: red; }
+              #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a:hover:nth-child(1)::before {
+                background-image: url("./images/red1.png");
+                background-size: cover; }
+              #detailAll .qugao .all > div:nth-child(1) p:nth-child(5) a:hover:nth-child(2)::before {
+                content: '';
+                background-image: url("./images/red2.png");
+                background-size: cover; }
+    #detailAll .qugao .all > div:nth-child(2) {
+      height: 445px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      margin-right: 80px;
+      color: #ffffff;
+      text-align: center; }
+      #detailAll .qugao .all > div:nth-child(2) > div > div {
+        display: inline-block;
+        width: 100px;
+        height: 80px;
+        background-color: #2e2648; }
+        #detailAll .qugao .all > div:nth-child(2) > div > div p {
+          color: #f8c600;
+          font-size: 22px;
+          margin-top: 20px;
+          position: relative; }
+          #detailAll .qugao .all > div:nth-child(2) > div > div p::before {
+            display: inline-block;
+            width: 60px;
+            height: 20px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #df2d2d;
+            font-weight: bold;
+            position: absolute;
+            left: 15px;
+            top: -30px;
+            padding: 0 5px; }
+        #detailAll .qugao .all > div:nth-child(2) > div > div:nth-child(1) p::before {
+          content: "用户评分"; }
+        #detailAll .qugao .all > div:nth-child(2) > div > div:nth-child(2) p::before {
+          content: "专业评分"; }
+        #detailAll .qugao .all > div:nth-child(2) > div > div:nth-child(3) p {
+          font-size: 16px;
+          margin-top: 28px;
+          color: #ffffff; }
+          #detailAll .qugao .all > div:nth-child(2) > div > div:nth-child(3) p::before {
+            content: "累积票房";
+            left: 15px;
+            top: -38px; }
+        #detailAll .qugao .all > div:nth-child(2) > div > div span {
+          font-size: 12px; }
+      #detailAll .qugao .all > div:nth-child(2) a {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 310px;
+        height: 50px;
+        background-color: #df2d2d;
+        line-height: 50px;
+        color: #ffffff; }
+        #detailAll .qugao .all > div:nth-child(2) a:hover {
+          color: #e3e55c;
+          box-shadow: inset 0px 0px 110px -30px #ffffff; }
+#detailAll .on_top {
+  width: 1100px;
+  margin: auto;
+  height: 90px;
+  position: relative; }
+  #detailAll .on_top div {
+    background-color: #ffffff;
+    position: absolute;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 1050px;
+    height: 75px;
+    top: -20px; }
+    #detailAll .on_top div img {
+      position: absolute;
+      width: 240px;
+      height: 330px;
+      bottom: 30px;
+      left: 25px; }
+    #detailAll .on_top div::after {
+      content: '';
+      display: inline-block;
+      width: 240px;
+      height: 30px;
+      margin-top: 50px;
+      margin-left: 25px;
+      background-image: -webkit-linear-gradient(top, #f1f1f1, #f5f5f5, #f9f9f9, #fdfdfd, #ffffff);
+      background-image: linear-gradient(to bottom, #f1f1f1, #f5f5f5, #f9f9f9, #fdfdfd, #ffffff); }
+#detailAll .xiangqing_all {
+  width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  #detailAll .xiangqing_all .xiangqing_all_left {
+    width: 740px; }
+    #detailAll .xiangqing_all .xiangqing_all_left > p {
+      border-bottom: 1px solid #dfdfdf;
+      height: 30px; }
+      #detailAll .xiangqing_all .xiangqing_all_left > p > a {
+        padding-bottom: 10px;
+        margin-right: 20px;
+        border-bottom: 1px solid transparent;
+        color: #756189; }
+        #detailAll .xiangqing_all .xiangqing_all_left > p > a:hover {
+          border-color: #df2d2d;
+          color: #df2d2d; }
+    #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_introduce {
+      margin-top: 50px;
+      margin-bottom: 30px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_introduce > span {
+        display: inline-block;
+        font-size: 24px;
+        margin-bottom: 30px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_introduce > span::before {
+          content: '';
+          display: inline-block;
+          border: 2px solid #df2d2d;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 10px;
+          margin-bottom: 5px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_introduce > p {
+        letter-spacing: 1px;
+        line-height: 32px; }
+    #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor {
+      margin-bottom: 50px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(1) {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(1) span:nth-child(1) {
+          display: inline-block;
+          font-size: 24px;
+          margin-bottom: 30px; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(1) span:nth-child(1)::before {
+            content: '';
+            display: inline-block;
+            border: 2px solid #df2d2d;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-bottom: 5px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(1) a {
+          color: #9c9f9f; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(1) a:hover {
+            color: #df2d2d; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(2) {
+        font-size: 18px;
+        margin-bottom: 15px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor > p:nth-child(2) span:nth-child(2) {
+          position: relative;
+          left: 120px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        text-align: center; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a {
+          line-height: 20px; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a img {
+            opacity: 0.7; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a:hover {
+            -webkit-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                    transform: scale(1.1);
+            box-shadow: inset 0 0px 60px -20px #e8e8e8; }
+            #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a:hover p {
+              -webkit-animation: miss_shu 1s infinite linear;
+                      animation: miss_shu 1s infinite linear; }
+            #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a:hover img {
+              opacity: 1; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_actor div a p:nth-child(3) {
+            font-size: 12px;
+            color: #747474; }
+    #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist {
+      margin-bottom: 50px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > p:nth-child(1) {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > p:nth-child(1) span:nth-child(1) {
+          display: inline-block;
+          font-size: 24px;
+          margin-bottom: 30px; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > p:nth-child(1) span:nth-child(1)::before {
+            content: '';
+            display: inline-block;
+            border: 2px solid #df2d2d;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-bottom: 5px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > p:nth-child(1) a {
+          color: #9c9f9f; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > p:nth-child(1) a:hover {
+            color: #df2d2d; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_photolist > div > div {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+          -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+                  justify-content: space-around;
+          -webkit-align-content: space-between;
+              -ms-flex-line-pack: justify;
+                  align-content: space-between; }
+    #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant > p:nth-child(1) {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant > p:nth-child(1) span:nth-child(1) {
+        display: inline-block;
+        font-size: 24px;
+        margin-bottom: 30px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant > p:nth-child(1) span:nth-child(1)::before {
+          content: '';
+          display: inline-block;
+          border: 2px solid #df2d2d;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 10px;
+          margin-bottom: 5px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant > p:nth-child(1) a {
+        color: #df2d2d;
+        border: 1px solid #df2d2d;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        border-radius: 15px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant > p:nth-child(1) a:hover {
+          color: #ffffff;
+          background-color: #df2d2d; }
+    #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > a {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+        border: 1px solid #9c9f9f;
+        position: relative;
+        opacity: 0.7; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > a:hover {
+          opacity: 1; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > a img {
+          width: 55px;
+          height: 55px;
+          border-radius: 100%; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > a::before {
+          content: '';
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-image: url("./images/v4.png");
+          position: absolute;
+          left: 35px;
+          top: 40px; }
+      #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div {
+        width: 650px; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          height: 50px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div p span {
+            display: block;
+            font-size: 18px; }
+            #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div p span:nth-child(1) {
+              margin-bottom: 10px; }
+              #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div p span:nth-child(1)::after {
+                margin-left: 2px;
+                content: '购';
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                padding: 0 0 0 3px;
+                border: 1px solid #4bb6fd;
+                color: #4bb6fd;
+                font-size: 12px; }
+            #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div p span:nth-child(2) {
+              color: #9c9f9f; }
+              #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div p span:nth-child(2)::after {
+                margin-left: 2px;
+                content: '';
+                display: inline-block;
+                width: 96px;
+                height: 16px;
+                background-image: url("./images/star_icon01.png"); }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div a::before {
+            content: '';
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 10px;
+            background-image: url("./images/icon_08.png"); }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div a span {
+            vertical-align: middle;
+            color: #d8d8d8; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div a:hover::before {
+            background-image: url("./images/icon_06.png");
+            background-size: cover; }
+          #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > div a:hover span {
+            color: #e33737; }
+        #detailAll .xiangqing_all .xiangqing_all_left .xiangqing_descant .xiangqing_descant_person > div > p {
+          border-bottom: 1px solid #e5e5e5;
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 20px;
+          color: #666a6f;
+          padding-bottom: 10px; }
+  #detailAll .xiangqing_all .xiangqing_all_right {
+    width: 330px; }
+    #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > span {
+      display: inline-block;
+      font-size: 20px;
+      margin-bottom: 30px; }
+      #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > span::before {
+        content: '';
+        display: inline-block;
+        border: 2px solid #df2d2d;
+        height: 15px;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-bottom: 5px; }
+    #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 20px; }
+      #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div {
+        margin: 0 5px; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div p:nth-child(1) {
+          margin-top: 10px;
+          font-size: 14px; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div p:nth-child(2) {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 12px;
+          color: #999999; }
+          #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div p:nth-child(2) span {
+            display: inline-block;
+            margin-right: 2px; }
+            #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div p:nth-child(2) span:nth-child(2)::before {
+              content: '';
+              display: inline-block;
+              background-image: url("./images/icon__09.png");
+              width: 12px;
+              height: 9px;
+              background-size: cover; }
+            #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a > div p:nth-child(2) span:nth-child(3)::before {
+              content: '';
+              display: inline-block;
+              background-image: url("./images/icon__10.png");
+              width: 12px;
+              height: 9px;
+              background-size: cover; }
+      #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a:hover {
+        box-shadow: inset 0 0px 60px -20px #e8e8e8;
+        -webkit-animation: miss_shu 1s infinite linear;
+                animation: miss_shu 1s infinite linear; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_information > div > a:hover img {
+          opacity: 0.5; }
+    #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie {
+      margin-top: 60px; }
+      #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > span {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 30px; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > span::before {
+          content: '';
+          display: inline-block;
+          border: 2px solid #df2d2d;
+          height: 15px;
+          vertical-align: middle;
+          margin-right: 10px;
+          margin-bottom: 5px; }
+      #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        text-align: center; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a p {
+          font-size: 14px;
+          margin-bottom: 15px; }
+          #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a p:nth-child(3) span {
+            color: #f8c600;
+            font-style: italic; }
+            #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a p:nth-child(3) span:nth-child(1) {
+              font-size: 14px;
+              margin-right: 5px; }
+            #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a p:nth-child(3) span:nth-child(2) {
+              font-size: 12px; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a img {
+          opacity: 0.7; }
+        #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a:hover {
+          -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+                  transform: scale(1.1);
+          box-shadow: inset 0 0px 60px -20px #e8e8e8; }
+          #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a:hover img {
+            opacity: 1; }
+          #detailAll .xiangqing_all .xiangqing_all_right .xiangqing_movie > div a:hover p {
+            -webkit-animation: miss_shu 1s infinite linear;
+                    animation: miss_shu 1s infinite linear; }

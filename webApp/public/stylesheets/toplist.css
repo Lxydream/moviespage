@@ -1,0 +1,124 @@
+#topListMain .toplist_classify {
+  background-color: #47464a;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #topListMain .toplist_classify a {
+    margin-top: 70px;
+    color: #999999;
+    margin-right: 80px;
+    padding-top: 20px; }
+    #topListMain .toplist_classify a:hover {
+      color: #ef4238; }
+      #topListMain .toplist_classify a:hover::after {
+        border-bottom: 6px solid #ffffff; }
+    #topListMain .toplist_classify a::after {
+      height: 10px;
+      width: 2px;
+      content: '';
+      display: block;
+      border: 6px solid transparent;
+      margin-left: 30px; }
+#topListMain .toplist_all {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-top: 70px; }
+  #topListMain .toplist_all p {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 10px; }
+    #topListMain .toplist_all p span {
+      color: #ffb400; }
+  #topListMain .toplist_all ol {
+    margin-top: 40px; }
+    #topListMain .toplist_all ol li {
+      margin-bottom: 25px; }
+      #topListMain .toplist_all ol li:nth-child(1) a > p::before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-image: url("./images/icon_04.png"); }
+      #topListMain .toplist_all ol li:not(:nth-child(2)):not(:nth-child(3)) a > p span {
+        background-color: #ffffff;
+        color: #999999;
+        line-height: 50px; }
+      #topListMain .toplist_all ol li a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        #topListMain .toplist_all ol li a > p {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          #topListMain .toplist_all ol li a > p span {
+            width: 50px;
+            height: 50px;
+            font-size: 22px;
+            font-style: italic;
+            background-color: #ffb400;
+            color: #ffffff;
+            line-height: 50px; }
+          #topListMain .toplist_all ol li a > p img {
+            margin-left: 25px; }
+        #topListMain .toplist_all ol li a > div {
+          width: 690px;
+          margin-left: 20px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          border-bottom: 1px solid #e5e5e5; }
+          #topListMain .toplist_all ol li a > div > div {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start;
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start; }
+            #topListMain .toplist_all ol li a > div > div p:nth-child(1) {
+              font-size: 26px;
+              color: #000021; }
+            #topListMain .toplist_all ol li a > div > div p:nth-child(2) {
+              font-size: 18px;
+              color: #000021; }
+          #topListMain .toplist_all ol li a > div > p {
+            color: #ffb400;
+            font-style: italic;
+            font-weight: bold; }
+            #topListMain .toplist_all ol li a > div > p span:nth-child(1) {
+              font-size: 50px; }
+            #topListMain .toplist_all ol li a > div > p span:nth-child(2) {
+              font-size: 25px; }
+        #topListMain .toplist_all ol li a:hover {
+          box-shadow: inset 0px 0px 20px 3px #f0f156; }
+          #topListMain .toplist_all ol li a:hover p {
+            -webkit-animation: miss_shu 1s infinite linear;
+                    animation: miss_shu 1s infinite linear; }

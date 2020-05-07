@@ -1,0 +1,98 @@
+@charset "UTF-8";
+#loginMaoyan p {
+  margin: 0; }
+#loginMaoyan a {
+  text-decoration: none;
+  color: #ec454a;
+  border-bottom: 1px solid transparent; }
+  #loginMaoyan a:hover {
+    border-color: #e53035; }
+#loginMaoyan .loading_page {
+  margin: auto;
+  width: 1000px;
+  margin-top: 40px; }
+  #loginMaoyan .loading_page a img {
+    margin-bottom: 40px; }
+  #loginMaoyan .loading_page .loading_page_bottom {
+    color: #666666;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #loginMaoyan .loading_page .loading_page_bottom div:last-child {
+      margin-left: 120px;
+      width: auto;
+      height: 250px; }
+      #loginMaoyan .loading_page .loading_page_bottom div:last-child p {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 15px;
+        position: relative; }
+        #loginMaoyan .loading_page .loading_page_bottom div:last-child p img {
+          position: absolute;
+          left: 10px;
+          top: 15px; }
+        #loginMaoyan .loading_page .loading_page_bottom div:last-child p input {
+          width: 260px;
+          height: 40px;
+          padding-left: 36px; }
+        #loginMaoyan .loading_page .loading_page_bottom div:last-child p:nth-child(1) a {
+          color: #666666;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          #loginMaoyan .loading_page .loading_page_bottom div:last-child p:nth-child(1) a::after {
+            content: '';
+            display: inline-block;
+            background-image: url("./images/sprite_webpage.png");
+            background-position: -15px -59px;
+            width: 10px;
+            height: 16px;
+            margin-left: 5px; }
+          #loginMaoyan .loading_page .loading_page_bottom div:last-child p:nth-child(1) a:hover {
+            color: #e53035; }
+            #loginMaoyan .loading_page .loading_page_bottom div:last-child p:nth-child(1) a:hover::after {
+              -webkit-transform: scale(1.2);
+                  -ms-transform: scale(1.2);
+                      transform: scale(1.2); }
+        #loginMaoyan .loading_page .loading_page_bottom div:last-child p:nth-child(4) input {
+          padding: 0;
+          width: 16px;
+          height: 16px; }
+      #loginMaoyan .loading_page .loading_page_bottom div:last-child .toindex {
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 100%;
+        height: 35px;
+        background-color: #e53035;
+        border: 0;
+        font-family: "黑体";
+        outline: none;
+        color: #ffffff;
+        line-height: 35px;
+        text-align: center; }
+        #loginMaoyan .loading_page .loading_page_bottom div:last-child .toindex:hover {
+          background-color: #e9e6e6;
+          -webkit-transition: 0.3s linear;
+                  transition: 0.3s linear;
+          box-shadow: inset 1px 20px 20px 0px #e53035; }
+  #loginMaoyan .loading_page footer {
+    text-align: center; }
+    #loginMaoyan .loading_page footer p {
+      color: #cccccc;
+      font-size: 12px; }

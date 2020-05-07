@@ -1,0 +1,86 @@
+#regMaoyan a {
+  text-decoration: none;
+  color: #e02025; }
+  #regMaoyan a:hover {
+    border-bottom: 1px solid #e02025; }
+#regMaoyan p {
+  margin: 16px 0; }
+#regMaoyan .logo_head {
+  height: 60px;
+  border-bottom: 2px solid #e02025;
+  position: relative; }
+  #regMaoyan .logo_head a img {
+    position: absolute;
+    margin-top: 10px;
+    left: 28%;
+    -webkit-animation: linear 2s xuanzhuan infinite;
+            animation: linear 2s xuanzhuan infinite; }
+#regMaoyan .register_table {
+  position: relative;
+  height: 500px; }
+  #regMaoyan .register_table form {
+    position: absolute;
+    left: 30%;
+    margin-top: 30px; }
+    #regMaoyan .register_table form p label {
+      display: inline-block;
+      width: 80px;
+      height: 30px;
+      text-align: right;
+      line-height: 30px; }
+    #regMaoyan .register_table form p input {
+      width: 260px;
+      height: 35px;
+      vertical-align: middle; }
+    #regMaoyan .register_table form p span {
+      color: #999999;
+      font-size: 12px; }
+    #regMaoyan .register_table form p:nth-child(2) a {
+      display: inline-block;
+      width: 137px;
+      height: 22px;
+      background-color: #ebebeb;
+      border: 1px solid #e3e3e3;
+      border-radius: 10px;
+      color: black;
+      font-size: 12px;
+      text-align: center;
+      line-height: 22px; }
+      #regMaoyan .register_table form p:nth-child(2) a:hover {
+        background-color: #999999;
+        color: #ffffff; }
+    #regMaoyan .register_table form p:nth-child(2) {
+      margin-left: 85px; }
+    #regMaoyan .register_table form p:nth-child(5) {
+      margin-left: 85px; }
+      #regMaoyan .register_table form p:nth-child(5) span {
+        text-align: center;
+        display: inline-block;
+        width: 85px;
+        height: 20px;
+        background-color: #eeeeee;
+        color: #ffffff;
+        font-size: 14px;
+        margin-right: 2px;
+        line-height: 20px; }
+    #regMaoyan .register_table form p:nth-child(8) {
+      margin-left: 85px; }
+    #regMaoyan .register_table form .tologin {
+      width: 260px;
+      height: 35px;
+      display: inline-block;
+      line-height: 35px;
+      text-align: center;
+      margin-left: 85px;
+      background-color: #e02025;
+      color: #e3e3e3;
+      border: 1px solid #e02025; }
+      #regMaoyan .register_table form .tologin:hover {
+        color: #e02025;
+        background-color: #e3e3e3; }
+#regMaoyan .ft_bottom {
+  text-align: center;
+  border-top: 1px solid #eeeeee; }
+  #regMaoyan .ft_bottom p {
+    color: #999999;
+    font-size: 14px; }
